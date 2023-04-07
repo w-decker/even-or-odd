@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="even, odd, calculator" />
+    <title>Even or Odd?</title>
+    <link rel="stylesheet" href="evenORodd.css" />
+  </head>
+  <body>
+    <!--Main graphics and elements-->
+    <div class="backgroundBox">
+      <h1 class="message">
+        Is a number EVEN or ODD? Type your number in the box to find out.
+      </h1>
+    </div>
+    <div class="input-box">
+      <input
+        type="number"
+        name="Even Or Odd"
+        id="input-box"
+        placeholder="Enter a number"
+      />
+      <!--Here is where users meet the JS code-->
+      <button onclick="evenORodd()" id="check">Check</button>
+    </div>
+    <div class="answerBox">
+      <h3 id="answer"></h3>
+    </div>
+    <script src="evenORodd.js"></script>
+  </body>
+</html>

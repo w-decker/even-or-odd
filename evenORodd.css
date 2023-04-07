@@ -1,0 +1,51 @@
+body {
+    background-color: #B0E0E6;
+}
+div.backgroundBox {
+    background-color: #006400;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  h1.message {
+    color: #ff69b4;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  #input-box {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    background-color: #ff69b4;
+  }
+  #input-box::placeholder {
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+  }
+  #check {
+    height: 20px;
+    width: 60px;
+    position: absolute;
+    left: 36%;
+    top: 38%;
+    background-color: #8FBC8F;
+  }
+  div.answerBox {
+    background-color: #f3afa9;
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    top: 31%;
+    height: 30pt;
+    border-style: solid;
+    }
+  #answer {
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    left: 55%;
+    top: 32%;
+  }
